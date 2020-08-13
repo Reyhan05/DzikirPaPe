@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpapper"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_DzikirPagi"
+        android:layout_width="284dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pagi"
+        android:fontFamily="serif-monospace"
+        android:text="D Z I K I R  P A G I"
+        android:textColor="#fff"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_DzikirPetang"
+        android:layout_width="280dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/petang"
+        android:fontFamily="serif-monospace"
+        android:text="D Z I K I R  P E T A N G"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/book" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:fontFamily="serif-monospace"
+        android:text="Dzikir PaPe"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="Hadist Mengatakan"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Dan"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="“Maka bersabarlah kamu, karena sesungguhnya janji Allah itu benar, dan mohonlah ampunan untuk dosamu dan bertasbihlah seraya memuji Tuhanmu pada waktu sore dan pagi” (QS. Ghafir: 55). "
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffab00" />
+
+
+</LinearLayout>
